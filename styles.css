@@ -1,0 +1,90 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 28px 30px;
+}
+
+.navbar .logo {
+  display: flex;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 4%;
+}
+
+/* Gaya khusus untuk "waz" dengan warna hitam */
+.navbar .waz {
+  color: #3b3949;
+  margin-right: 0px; /* Menambahkan spasi di sebelah kanan "waz" */
+}
+
+/* Gaya khusus untuk "." (titik) dengan warna hitam */
+.navbar .dot {
+  color: rgb(0, 0, 0);
+  margin: 0px; /* Menambahkan spasi di kiri dan kanan "." */
+}
+
+/* Gaya khusus untuk "wez" dengan warna orange */
+.navbar .wez {
+  color: rgba(255, 95, 38, 1);
+  margin-left: 0px; /* Menambahkan spasi di sebelah kiri "wez" */
+}
+.navbar .icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .icons i {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+/* Gaya khusus untuk ikon notifikasi dan profil pengguna */
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.navbar .icons .fa-user {
+  color: green; /* Contoh warna hijau untuk ikon profil pengguna */
+}
